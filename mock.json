@@ -1,0 +1,17 @@
+[
+  {"verb": "GET"
+   "resource": "/todo",
+   "multiple": true,
+   "schema": "todo.json"
+  },
+  {"verb": "GET"
+   "resource": "/todo/:id",
+   "multiple": false,
+   "schema": "todo.json"
+  },
+  {"verb": "POST"
+   "resource": "/todo",
+   "multiple": false,
+   "schema": "todo.json"
+  }
+]
